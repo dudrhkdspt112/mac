@@ -1,0 +1,143 @@
+@charset "uft-8";
+/* top-accessibility */
+.top-accessibility{
+    z-index: 100;
+    position: fixed;
+    top:50%;
+    right:5%;
+    background-color: rgb(253, 33, 77);
+    width:80px;
+    height: 80px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.top-accessibility a{
+    display: inline-block;
+    width:100%;
+}
+.top-accessibility a img{
+    width:50px;
+    
+}
+
+
+
+/* top-accessibility */
+/* mainslider */
+.mainslider{
+    margin-top:8.6%;
+}
+.swiper.container-swiper .swiper-arrow .swiper-button-next,
+.swiper.container-swiper .swiper-arrow .swiper-button-prev{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet {
+    background: rgb(97, 97, 97);
+}
+/* mainslider */
+/* con-area */
+.con-area{
+    height: 1000px;
+}
+.con-maintxt{
+    font-size:40px;
+    padding:40px 0;
+}
+/* con-top */
+.con-top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    gap:60px;
+}
+.con-top-left h3{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.con-top-left p{
+    font-size: 13px;
+    line-height: 1.3rem;
+    font-weight: 600;
+}
+.con-top-left a{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid rgb(10, 10, 7);
+    border-radius: 13px;
+    padding: 8px 15px;
+    background-color: black;
+    color:#fff;
+    transition: color .5s, background-color.5s;
+}
+.con-top-left a:hover {
+    color:#000;
+    background-color: #fff;
+}
+.con-topimg{
+    display: flex;
+    gap: 20px;
+}
+.con-topimg a img{
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.swiper.con-top-right .swiper-arrow .swiper-button-next{
+    color: #343232;
+}
+/* con-top */
+/* con-bottom */
+.con-bottom{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width:100%;
+    gap:60px;
+}
+.swiper.con-bottom-left .swiper-arrow .swiper-button-prev{
+    color: #343232;
+}
+.con-bottomimg{
+    display: flex;
+    gap: 20px;
+}
+.con-bottomimg a img{
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.con-bottom-right h3{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.con-bottom-right p{
+    font-size: 13px;
+    line-height: 1.3rem;
+    font-weight: 600;
+}
+.con-bottom-right a{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid rgb(10, 10, 7);
+    border-radius: 13px;
+    padding: 8px 15px;
+    background-color: black;
+    color:#fff;
+    transition: color .5s, background-color.5s;
+}
+.con-bottom-right a:hover{
+    color:#000;
+    background-color: #fff;
+}
+
+
+
+/* con-bottom */
+/* con-area */
